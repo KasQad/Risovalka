@@ -7,9 +7,10 @@ namespace Entities
 	{
 		private readonly List<Wheel> _wheels = new List<Wheel>();
 
-		protected Car(List<Wheel> wheels)
+		protected Car(List<Wheel> wheels, float movingSpeed)
 		{
 			_wheels = new List<Wheel>(wheels);
+			MovingSpeed = movingSpeed;
 		}
 
 		internal void GetWheelsInfo()

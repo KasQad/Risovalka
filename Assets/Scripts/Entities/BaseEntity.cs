@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Entities.Interfaces;
+using UnityEngine;
 
 namespace Entities
 {
