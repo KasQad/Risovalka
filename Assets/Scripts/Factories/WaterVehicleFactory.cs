@@ -1,6 +1,6 @@
 namespace Factories
 {
-	public class WaterVehicleFactory : BaseVehicleFactory
+	public class WaterVehicleFactory : VehicleFactory
 	{
 	}
 }

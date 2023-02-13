@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Vehicle.Water
 {
-	public class AquaBike : BaseVehicle
+	public class AquaBike : Vehicle
 	{
 		protected internal AquaBike(IEngine engine) : base(engine)
 		{

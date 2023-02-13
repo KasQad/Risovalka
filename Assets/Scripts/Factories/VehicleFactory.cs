@@ -4,7 +4,7 @@ using Vehicle;
 
 namespace Factories
 {
-	public abstract class BaseVehicleFactory : IVehicleFactory
+	public abstract class VehicleFactory : IVehicleFactory
 	{
 		private readonly Dictionary<VehicleType, IVehicle> _vehicles = new Dictionary<VehicleType, IVehicle>();
 

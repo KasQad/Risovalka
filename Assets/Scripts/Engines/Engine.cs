@@ -2,7 +2,7 @@
 
 namespace Engines
 {
-	public abstract class BaseEngine : IEngine
+	public abstract class Engine : IEngine
 	{
 		private bool _isStarted;
 		private readonly float _power;
@@ -17,7 +17,7 @@ namespace Engines
 
 		public FuelType FuelType => _fuelType;
 
-		protected internal BaseEngine(FuelType fuelType, float power, float fuelConsumption)
+		protected internal Engine(FuelType fuelType, float power, float fuelConsumption)
 		{
 			_power = power;
 			_fuelConsumption = fuelConsumption;

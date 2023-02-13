@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace Vehicle
 {
-	public abstract class BaseVehicle : IVehicle
+	public abstract class Vehicle : IVehicle
 	{
 		public IEngine Engine { get; }
 
-		protected internal BaseVehicle(IEngine engine)
+		protected internal Vehicle(IEngine engine)
 		{
 			Engine = engine;
 		}
@@ -21,9 +21,9 @@ namespace Vehicle
 			}
 
 			if (Engine.IsStarted)
-				Debug.Log($"BaseVehicle move");
+				Debug.Log($"Vehicle move");
 			else
-				Debug.Log($"BaseVehicle cannot move because the engine is not running");
+				Debug.Log($"Vehicle cannot move because the engine is not running");
 		}
 	}
 }
