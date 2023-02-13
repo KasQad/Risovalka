@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 478679987}
   - component: {fileID: 478679986}
   m_Layer: 0
-  m_Name: Draw
+  m_Name: Builder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,12 +149,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 478679985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d7f513e49026974f985b724de740cd5, type: 3}
+  m_Script: {fileID: 11500000, guid: e8967e6d94a54380a17e4f6c84305af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefabCar: {fileID: 540914904397384897, guid: dc4e4624a43a0a84cbd5751eaf025104, type: 3}
-  _prefabCircle: {fileID: 8409760323471000826, guid: 39cca54f71f7fdf4eabaeb87d7ae719f, type: 3}
-  _prefabCWheel: {fileID: 4993904890458380392, guid: 4d280bf448730854da56fb758bcf775e, type: 3}
 --- !u!4 &478679987
 Transform:
   m_ObjectHideFlags: 0
