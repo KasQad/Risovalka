@@ -7,7 +7,5 @@ namespace Vehicle.Water
 		protected internal SteamShip(IEngine engine) : base(engine)
 		{
 		}
-		
-		
 	}
 }

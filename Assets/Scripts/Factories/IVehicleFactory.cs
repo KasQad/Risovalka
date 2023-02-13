@@ -5,6 +5,6 @@ namespace Factories
 {
 	public interface IVehicleFactory
 	{
-		public IVehicle CreateVehicle(VehicleType vehicleType );
+		public IVehicle CreateVehicle(VehicleType vehicleType);
 	}
 }

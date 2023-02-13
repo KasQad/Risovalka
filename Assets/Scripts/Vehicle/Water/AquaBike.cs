@@ -8,7 +8,7 @@ namespace Vehicle.Water
 		protected internal AquaBike(IEngine engine) : base(engine)
 		{
 		}
-		
+
 		public override void Move()
 		{
 			if (Engine == null)
@@ -23,5 +23,4 @@ namespace Vehicle.Water
 				Debug.Log($"AquaBike cannot move because the engine is not running");
 		}
 	}
-	
 }

@@ -18,7 +18,7 @@ namespace Builder
 			GasEngine gasEngine = new GasEngine(FuelType.Gas, 80f, 0.8f);
 
 			_waterVehicleFactory.AddAvailableVehicle(VehicleType.AquaBike, new AquaBike(gasEngine));
-			
+
 			_waterVehicleFactory.AddAvailableVehicle(VehicleType.SteamShip, new SteamShip(dieselEngine));
 
 			_landVehicleFactory.AddAvailableVehicle(VehicleType.Car, new Car(dieselEngine));
